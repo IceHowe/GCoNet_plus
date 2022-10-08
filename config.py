@@ -47,7 +47,7 @@ class Config():
             self.batch_size = 16
         else:
             if self.bb != 'vgg16':
-                self.batch_size = 26
+                self.batch_size = 24
             else:
                 self.batch_size = 48
         self.db_output_refiner = False and self.refine
